@@ -1,5 +1,28 @@
-numpy==2.1.3
-pandas==2.2.3
-scikit_learn==1.5.2
-tensorflow==2.18.0
-tensorflow_intel==2.18.0
+# Критические зависимости
+transformers==4.41.2
+bitsandbytes==0.43.1
+accelerate==0.30.1
+peft==0.12.0
+safetensors==0.4.3
+torch==2.3.1
+
+# Токенизация
+tokenizers==0.19.1
+sentencepiece==0.2.0
+
+# Совместимые вспомогательные библиотеки
+huggingface-hub==0.23.0  # Минимум 0.23.0 для transformers 4.41.2
+numpy==1.26.4
+tqdm==4.66.4
+
+# Документная обработка
+langchain==0.2.5
+pypdf==4.2.0
+
+# Опциональные
+openinference-instrumentation-llama-index
+llama-index-core
+llama-index-llms-huggingface
+llama-index-embeddings-huggingface
+llama-index-readers-file
+llama-index-retrievers-bm25
