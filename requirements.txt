@@ -17,12 +17,14 @@ tqdm==4.66.4
 
 # Документная обработка
 langchain==0.2.5
-pypdf==4.2.0
+pypdf==5.1.0
+
+gcsfs
+nest-asyncio
 
 # Опциональные
-openinference-instrumentation-llama-index
+llama_index==0.12.4
 llama-index-core
 llama-index-llms-huggingface
 llama-index-embeddings-huggingface
 llama-index-readers-file
-llama-index-retrievers-bm25
