@@ -1,6 +1,10 @@
 # Модель для описания товаров
 Модель генерации имени товара на основе описания. 
 
+Мдель взята с HF.
+
+LLM: IlyaGusev/saiga_llama3_8b
+
 Можно запустить онлайн без нужного железа.
 Ссылка на google collab "https://colab.research.google.com/drive/1vnaZztq_45nA3K3VyIHzJ9PH2pzSsZ5M?usp=sharing"
 
